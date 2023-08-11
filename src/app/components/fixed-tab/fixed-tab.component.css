@@ -14,8 +14,7 @@ p{
 }
 
 section{
-  width: 60%;
-  margin-left: 50px;
+  width: 40%;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
