@@ -1,0 +1,15 @@
+.header{
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.icons{
+  display: flex;
+  gap: 40px;
+}
+
+img:hover{
+  cursor: pointer;
+}
