@@ -3,11 +3,17 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
+  margin-top: 20px;
 }
 
 .icons{
   display: flex;
   gap: 40px;
+}
+
+.icons img{
+  width: 40px;
+  height: auto;
 }
 
 img:hover{

@@ -13,3 +13,7 @@ p{
 h1{
   font-size: 68px;
 }
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}

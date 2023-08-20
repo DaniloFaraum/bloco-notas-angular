@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.notes{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+
+.no-notes{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+  
