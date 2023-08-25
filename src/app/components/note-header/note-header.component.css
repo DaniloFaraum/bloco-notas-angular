@@ -19,3 +19,13 @@
 img:hover{
   cursor: pointer;
 }
+
+.hidden{
+  visibility: hidden;
+}
+
+section{
+  margin-bottom: -140px;
+  width: 100%;
+}
+

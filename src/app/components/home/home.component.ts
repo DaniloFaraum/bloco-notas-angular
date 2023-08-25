@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  noteList = [
+    {
+      title: "placeholder",
+      content: "plaaaaaceholder",
+    },
+    {
+      title: "gbffdgfgf",
+      content: "plaaaaaceholder",
+    }
+  ]
 }

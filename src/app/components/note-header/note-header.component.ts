@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NoteHeaderComponent {
 
+  pallete={
+    visibility: "hidden"
+  }
+
+  showPallete(){
+    if(this.pallete.visibility == "hidden"){
+      this.pallete.visibility = ""
+    }
+    else{
+      this.pallete.visibility = "hidden"
+    }
+  }
 }

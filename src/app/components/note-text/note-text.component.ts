@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-note-text',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./note-text.component.css']
 })
 export class NoteTextComponent {
-
+  note = {
+    title: "placeholder",
+    content: "plaaaaaceholder",
+    type: "type1"
+  }
 }

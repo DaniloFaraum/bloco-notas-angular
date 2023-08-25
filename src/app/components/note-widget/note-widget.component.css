@@ -3,11 +3,11 @@ div{
     width: 22vw;
     padding: 1vw;
     height: 250px;
-    display: flex;
+
     flex-direction: column;
     border-radius: 10px;
   }
-  
+
   .title{
     color: black;
     font-size: 48px;
@@ -18,4 +18,5 @@ div{
   .text{
     font-size: 16px;
     font-weight: 400;
+    word-break: break-word;
   }

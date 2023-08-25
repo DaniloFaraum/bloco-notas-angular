@@ -2,10 +2,12 @@
     <app-fixed-tab></app-fixed-tab>
     <app-search></app-search>
 </header>
-<div class="notes">
+<div class="notes" *ngFor="let note of noteList">
     <app-new-note></app-new-note>
-    <app-note-widget></app-note-widget>
-    <app-note-widget></app-note-widget>
+    <app-note-widget [note]="note"></app-note-widget>
 </div>
 <p class="no-notes">Notas criadas serão <br> exibidas aqui</p>
+<div >
+  >
+</div>
 
