@@ -1,0 +1,25 @@
+.background{
+  background-color: #EAE7B3;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.note{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+p{
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+}
